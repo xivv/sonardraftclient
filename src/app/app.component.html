@@ -1,0 +1,6 @@
+<div class="container">
+  <h1 class="title">Sonardraft <p class="offline" *ngIf="serverIsAlive">Online</p>
+    <p class="offline" *ngIf="!serverIsAlive">Offline</p>
+  </h1>
+  <router-outlet></router-outlet>
+</div>
