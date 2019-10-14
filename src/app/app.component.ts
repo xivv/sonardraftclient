@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 
 import { Apollo } from 'apollo-angular';
 import gql from 'graphql-tag';
+import { timingSafeEqual } from 'crypto';
 
 @Component({
   selector: 'app-root',
@@ -14,16 +15,21 @@ export class AppComponent {
   serverIsAlive = false;
 
   constructor(private apollo: Apollo) {
-    this.apollo.query(
-      {
-        query: gql`
-          {
-            isAlive
-          }
-        `
-      }
-    ).subscribe(result => {
-      console.log(result);
-    });
+
+    const apol = this.apollo;
+
+    setInterval(function () {
+      apol.query(
+        {
+          query: gql`
+    {
+      isAlive
+    }`
+        }
+      ).subscribe(result => {
+        console.log(result);
+      });
+
+    }, 1000);
   }
 }
