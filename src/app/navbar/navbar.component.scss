@@ -1,0 +1,26 @@
+.offline {
+  color: red;
+  font-weight: bold;
+}
+
+.online {
+  color: green;
+  font-weight: bold;
+}
+
+.inactiveLink {
+  pointer-events: none;
+  cursor: default;
+}
+
+.navbar {
+  background-color: rgb(23, 31, 36);
+}
+
+h1 {
+  color: rgb(100, 100, 100);
+}
+
+button {
+  margin: 5px;
+}

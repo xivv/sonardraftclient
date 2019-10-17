@@ -1,0 +1,42 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item inactiveLink" href="https://bulma.io">
+      <h1 class="title">Sonardraft</h1>
+    </a>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+      data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+
+    <div class="navbar-start">
+      <a class="online navbar-item inactiveLink" *ngIf="commService.serverIsAlive">Server Online</a>
+      <a class="offline navbar-item inactiveLink" *ngIf="!commService.serverIsAlive">Server Offline</a>
+      <a class="online navbar-item inactiveLink" *ngIf="commService.clientIsRunning">Draft Online</a>
+      <a class="offline navbar-item inactiveLink" *ngIf="!commService.clientIsRunning">Draft Offline</a>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a *ngIf="!commService.clientIsRunning&&commService.serverIsAlive" (click)="commService.toggleClientRunning()"
+            class="button is-dark">
+            <strong>Start Draft</strong>
+          </a>
+          <a *ngIf="commService.clientIsRunning&&commService.serverIsAlive" (click)="commService.toggleClientRunning()"
+            class="button is-danger">
+            <strong>End Draft</strong>
+          </a>
+          <a class="button is-light">
+            Log in
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

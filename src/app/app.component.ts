@@ -2,7 +2,9 @@ import { Component } from '@angular/core';
 
 import { Apollo } from 'apollo-angular';
 import gql from 'graphql-tag';
-import { timingSafeEqual } from 'crypto';
+import { delay } from 'q';
+import { Character } from './model/Character';
+import { CommService } from './communication/comm.service';
 
 @Component({
   selector: 'app-root',
@@ -11,25 +13,21 @@ import { timingSafeEqual } from 'crypto';
 })
 export class AppComponent {
 
+  characterImageBaseUrl = 'https://ddragon.leagueoflegends.com/cdn/9.20.1/img/champion/';
   title = 'sonardraftclient';
-  serverIsAlive = false;
 
-  constructor(private apollo: Apollo) {
+  constructor(public commService: CommService) {
 
-    const apol = this.apollo;
-
-    setInterval(function () {
-      apol.query(
-        {
-          query: gql`
-    {
-      isAlive
-    }`
-        }
-      ).subscribe(result => {
-        console.log(result);
-      });
-
-    }, 1000);
   }
+
+
+  getImageUrl(character: Character): string {
+
+    if (character.name === 'None' || character.name === 'Picking') {
+      return './assets/character/' + character.name + '.png';
+    } else {
+      return this.characterImageBaseUrl + character.name + '.png';
+    }
+  }
+
 }
