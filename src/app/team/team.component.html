@@ -20,8 +20,8 @@
 <br>
 <div class="columns is-multiline">
   <div *ngFor="let priority of team.combos">
-    <figure class="image is-48x48">
-      <img src="{{getImageUrl(priority)}}">
+    <figure class=" image is-48x48">
+      <img class="character" src="{{getImageUrl(priority)}}">
       <div
         [ngClass]="{'priority-low': priority.priority <= 15,'priority-minor': priority.priority <= 35 && priority.priority > 15,'priority-major': priority.priority > 35  && priority.priority <= 50,'priority-severe': priority.priority >  50  && priority.priority <= 75,'priority-blocker': priority.priority > 75}"
         class="priority">{{priority.priority}}%</div>

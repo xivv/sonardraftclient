@@ -18,6 +18,20 @@ export class CommService {
     this.isAlive();
   }
 
+  reloadConfiguration() {
+
+    this.apollo.query(
+      {
+        query: gql`
+  {
+    reloadConfiguration
+  }`
+      }
+    ).subscribe(result => {
+      console.log(result);
+    });
+  }
+
 
   toggleClientRunning() {
 
