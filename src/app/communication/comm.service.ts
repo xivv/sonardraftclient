@@ -137,7 +137,7 @@ export class CommService {
 
       if (this.clientIsRunning && this.serverIsAlive) {
         this.getDraft();
-        await delay(500);
+        await delay(100);
       } else if (this.serverIsAlive) {
         await delay(5000);
       } else {

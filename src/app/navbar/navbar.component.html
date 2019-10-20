@@ -32,11 +32,8 @@
             class="button is-danger">
             <strong>End Draft</strong>
           </a>
-          <a (click)="commService.reloadConfiguration()" class="button is-dark">
+          <a *ngIf="commService.serverIsAlive" (click)="commService.reloadConfiguration()" class="button is-dark">
             <strong>Reload Configuration</strong>
-          </a>
-          <a class="button is-light">
-            Log in
           </a>
         </div>
       </div>

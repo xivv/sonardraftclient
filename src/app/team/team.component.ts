@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { Team } from '../model/Team';
 import { Character } from '../model/Character';
+import { Role } from '../model/Role';
 
 @Component({
     selector: 'app-team',

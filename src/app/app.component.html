@@ -1,14 +1,14 @@
-  <app-navbar></app-navbar>
-  <section class="section is-large">
-    <div class="container" *ngIf="commService.draft">
-      <div class="columns">
-        <div class="column">
-          <app-team [team]="commService.draft.blue"></app-team>
-        </div>
-        <div class="column">
-          <app-team [team]="commService.draft.red"></app-team>
-        </div>
-        <router-outlet></router-outlet>
+<app-navbar></app-navbar>
+<section class="section">
+  <div class="container" *ngIf="commService.draft">
+    <div class="columns">
+      <div class="column">
+        <app-team [team]="commService.draft.blue"></app-team>
       </div>
+      <div class="column">
+        <app-team [team]="commService.draft.red"></app-team>
+      </div>
+      <router-outlet></router-outlet>
     </div>
-  </section>
+  </div>
+</section>
