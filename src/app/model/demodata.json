@@ -1,0 +1,754 @@
+{
+  "draft": {
+    "comps": [{
+      "name": "Soldat Special",
+      "picks": [{
+        "name": "Darius",
+        "alternatives": [{
+            "name": "Renekton"
+          },
+          {
+            "name": "Garen"
+          }
+        ]
+      }],
+      "banns": [{
+        "name": "Ahri"
+      }]
+    }],
+    "blue": {
+      "picks": [{
+          "name": "Draven"
+        },
+        {
+          "name": "Evelynn"
+        },
+        {
+          "name": "Ahri"
+        },
+        {
+          "name": "Kled"
+        }
+      ],
+      "banns": [
+
+      ],
+      "combos": [{
+          "name": "Alistar",
+          "priority": 0
+        },
+        {
+          "name": "Annie",
+          "priority": 0
+        },
+        {
+          "name": "Bard",
+          "priority": 0
+        },
+        {
+          "name": "Blitzcrank",
+          "priority": 0
+        },
+        {
+          "name": "Brand",
+          "priority": 0
+        },
+        {
+          "name": "Braum",
+          "priority": 0
+        },
+        {
+          "name": "Fiddlesticks",
+          "priority": 0
+        },
+        {
+          "name": "Galio",
+          "priority": 0
+        },
+        {
+          "name": "Janna",
+          "priority": 0
+        },
+        {
+          "name": "Karma",
+          "priority": 0
+        },
+        {
+          "name": "Kennen",
+          "priority": 0
+        },
+        {
+          "name": "Leona",
+          "priority": 0
+        },
+        {
+          "name": "Lulu",
+          "priority": 0
+        },
+        {
+          "name": "Lux",
+          "priority": 0
+        },
+        {
+          "name": "Morgana",
+          "priority": 0
+        },
+        {
+          "name": "Nami",
+          "priority": 0
+        },
+        {
+          "name": "Nautilus",
+          "priority": 0
+        },
+        {
+          "name": "Neeko",
+          "priority": 0
+        },
+        {
+          "name": "Pyke",
+          "priority": 0
+        },
+        {
+          "name": "Rakan",
+          "priority": 0
+        },
+        {
+          "name": "Senna",
+          "priority": 0
+        },
+        {
+          "name": "Shaco",
+          "priority": 0
+        },
+        {
+          "name": "Sion",
+          "priority": 0
+        },
+        {
+          "name": "Sona",
+          "priority": 0
+        },
+        {
+          "name": "Soraka",
+          "priority": 0
+        },
+        {
+          "name": "TahmKench",
+          "priority": 0
+        },
+        {
+          "name": "Taric",
+          "priority": 0
+        },
+        {
+          "name": "Thresh",
+          "priority": 0
+        },
+        {
+          "name": "Trundle",
+          "priority": 0
+        },
+        {
+          "name": "Velkoz",
+          "priority": 0
+        },
+        {
+          "name": "Yuumi",
+          "priority": 0
+        },
+        {
+          "name": "Zilean",
+          "priority": 0
+        },
+        {
+          "name": "Zyra",
+          "priority": 0
+        }
+      ],
+      "openRoles": [
+        "SUPPORT"
+      ]
+    },
+    "red": {
+      "picks": [{
+          "name": "Gragas"
+        },
+        {
+          "name": "Graves"
+        }
+      ],
+      "banns": [
+
+      ],
+      "combos": [{
+          "name": "Hecarim",
+          "priority": 50
+        },
+        {
+          "name": "Aatrox",
+          "priority": 0
+        },
+        {
+          "name": "Amumu",
+          "priority": 0
+        },
+        {
+          "name": "Camille",
+          "priority": 0
+        },
+        {
+          "name": "DrMundo",
+          "priority": 0
+        },
+        {
+          "name": "Ekko",
+          "priority": 0
+        },
+        {
+          "name": "Elise",
+          "priority": 0
+        },
+        {
+          "name": "Ivern",
+          "priority": 0
+        },
+        {
+          "name": "JarvanIV",
+          "priority": 0
+        },
+        {
+          "name": "Jax",
+          "priority": 0
+        },
+        {
+          "name": "Kaisa",
+          "priority": 0
+        },
+        {
+          "name": "Karthus",
+          "priority": 0
+        },
+        {
+          "name": "Kayn",
+          "priority": 0
+        },
+        {
+          "name": "Khazix",
+          "priority": 0
+        },
+        {
+          "name": "Kindred",
+          "priority": 0
+        },
+        {
+          "name": "LeeSin",
+          "priority": 0
+        },
+        {
+          "name": "Malphite",
+          "priority": 0
+        },
+        {
+          "name": "Maokai",
+          "priority": 0
+        },
+        {
+          "name": "MasterYi",
+          "priority": 0
+        },
+        {
+          "name": "MonkeyKing",
+          "priority": 0
+        },
+        {
+          "name": "Nasus",
+          "priority": 0
+        },
+        {
+          "name": "Nidalee",
+          "priority": 0
+        },
+        {
+          "name": "Nocturne",
+          "priority": 0
+        },
+        {
+          "name": "Nunu",
+          "priority": 0
+        },
+        {
+          "name": "Olaf",
+          "priority": 0
+        },
+        {
+          "name": "Ornn",
+          "priority": 0
+        },
+        {
+          "name": "Pantheon",
+          "priority": 0
+        },
+        {
+          "name": "Qiyana",
+          "priority": 0
+        },
+        {
+          "name": "Rammus",
+          "priority": 0
+        },
+        {
+          "name": "RekSai",
+          "priority": 0
+        },
+        {
+          "name": "Rengar",
+          "priority": 0
+        },
+        {
+          "name": "Sejuani",
+          "priority": 0
+        },
+        {
+          "name": "Shaco",
+          "priority": 0
+        },
+        {
+          "name": "Shyvana",
+          "priority": 0
+        },
+        {
+          "name": "Skarner",
+          "priority": 0
+        },
+        {
+          "name": "Sylas",
+          "priority": 0
+        },
+        {
+          "name": "Taliyah",
+          "priority": 0
+        },
+        {
+          "name": "Trundle",
+          "priority": 0
+        },
+        {
+          "name": "Udyr",
+          "priority": 0
+        },
+        {
+          "name": "Vi",
+          "priority": 0
+        },
+        {
+          "name": "Volibear",
+          "priority": 0
+        },
+        {
+          "name": "Warwick",
+          "priority": 0
+        },
+        {
+          "name": "XinZhao",
+          "priority": 0
+        },
+        {
+          "name": "Zac",
+          "priority": 0
+        },
+        {
+          "name": "Ashe",
+          "priority": 0
+        },
+        {
+          "name": "Caitlyn",
+          "priority": 0
+        },
+        {
+          "name": "Cassiopeia",
+          "priority": 0
+        },
+        {
+          "name": "Ezreal",
+          "priority": 0
+        },
+        {
+          "name": "Garen",
+          "priority": 0
+        },
+        {
+          "name": "Heimerdinger",
+          "priority": 0
+        },
+        {
+          "name": "Jhin",
+          "priority": 0
+        },
+        {
+          "name": "Jinx",
+          "priority": 0
+        },
+        {
+          "name": "Kalista",
+          "priority": 0
+        },
+        {
+          "name": "Kayle",
+          "priority": 0
+        },
+        {
+          "name": "Kennen",
+          "priority": 0
+        },
+        {
+          "name": "KogMaw",
+          "priority": 0
+        },
+        {
+          "name": "Lucian",
+          "priority": 0
+        },
+        {
+          "name": "MissFortune",
+          "priority": 0
+        },
+        {
+          "name": "Quinn",
+          "priority": 0
+        },
+        {
+          "name": "Sivir",
+          "priority": 0
+        },
+        {
+          "name": "Sona",
+          "priority": 0
+        },
+        {
+          "name": "Syndra",
+          "priority": 0
+        },
+        {
+          "name": "Tristana",
+          "priority": 0
+        },
+        {
+          "name": "Twitch",
+          "priority": 0
+        },
+        {
+          "name": "Varus",
+          "priority": 0
+        },
+        {
+          "name": "Vayne",
+          "priority": 0
+        },
+        {
+          "name": "Vladimir",
+          "priority": 0
+        },
+        {
+          "name": "Xayah",
+          "priority": 0
+        },
+        {
+          "name": "Yasuo",
+          "priority": 0
+        },
+        {
+          "name": "Ziggs",
+          "priority": 0
+        },
+        {
+          "name": "Alistar",
+          "priority": 0
+        },
+        {
+          "name": "Annie",
+          "priority": 0
+        },
+        {
+          "name": "Bard",
+          "priority": 0
+        },
+        {
+          "name": "Blitzcrank",
+          "priority": 0
+        },
+        {
+          "name": "Brand",
+          "priority": 0
+        },
+        {
+          "name": "Braum",
+          "priority": 0
+        },
+        {
+          "name": "Fiddlesticks",
+          "priority": 0
+        },
+        {
+          "name": "Galio",
+          "priority": 0
+        },
+        {
+          "name": "Janna",
+          "priority": 0
+        },
+        {
+          "name": "Karma",
+          "priority": 0
+        },
+        {
+          "name": "Leona",
+          "priority": 0
+        },
+        {
+          "name": "Lulu",
+          "priority": 0
+        },
+        {
+          "name": "Lux",
+          "priority": 0
+        },
+        {
+          "name": "Morgana",
+          "priority": 0
+        },
+        {
+          "name": "Nami",
+          "priority": 0
+        },
+        {
+          "name": "Nautilus",
+          "priority": 0
+        },
+        {
+          "name": "Neeko",
+          "priority": 0
+        },
+        {
+          "name": "Pyke",
+          "priority": 0
+        },
+        {
+          "name": "Rakan",
+          "priority": 0
+        },
+        {
+          "name": "Senna",
+          "priority": 0
+        },
+        {
+          "name": "Sion",
+          "priority": 0
+        },
+        {
+          "name": "Soraka",
+          "priority": 0
+        },
+        {
+          "name": "TahmKench",
+          "priority": 0
+        },
+        {
+          "name": "Taric",
+          "priority": 0
+        },
+        {
+          "name": "Thresh",
+          "priority": 0
+        },
+        {
+          "name": "Velkoz",
+          "priority": 0
+        },
+        {
+          "name": "Yuumi",
+          "priority": 0
+        },
+        {
+          "name": "Zilean",
+          "priority": 0
+        },
+        {
+          "name": "Zyra",
+          "priority": 0
+        },
+        {
+          "name": "Akali",
+          "priority": 0
+        },
+        {
+          "name": "Anivia",
+          "priority": 0
+        },
+        {
+          "name": "AurelionSol",
+          "priority": 0
+        },
+        {
+          "name": "Azir",
+          "priority": 0
+        },
+        {
+          "name": "Corki",
+          "priority": 0
+        },
+        {
+          "name": "Diana",
+          "priority": 0
+        },
+        {
+          "name": "Fizz",
+          "priority": 0
+        },
+        {
+          "name": "Gangplank",
+          "priority": 0
+        },
+        {
+          "name": "Irelia",
+          "priority": 0
+        },
+        {
+          "name": "Jayce",
+          "priority": 0
+        },
+        {
+          "name": "Kassadin",
+          "priority": 0
+        },
+        {
+          "name": "Katarina",
+          "priority": 0
+        },
+        {
+          "name": "Leblanc",
+          "priority": 0
+        },
+        {
+          "name": "Lissandra",
+          "priority": 0
+        },
+        {
+          "name": "Malzahar",
+          "priority": 0
+        },
+        {
+          "name": "Mordekaiser",
+          "priority": 0
+        },
+        {
+          "name": "Orianna",
+          "priority": 0
+        },
+        {
+          "name": "Renekton",
+          "priority": 0
+        },
+        {
+          "name": "Rumble",
+          "priority": 0
+        },
+        {
+          "name": "Ryze",
+          "priority": 0
+        },
+        {
+          "name": "Swain",
+          "priority": 0
+        },
+        {
+          "name": "Talon",
+          "priority": 0
+        },
+        {
+          "name": "Teemo",
+          "priority": 0
+        },
+        {
+          "name": "TwistedFate",
+          "priority": 0
+        },
+        {
+          "name": "Veigar",
+          "priority": 0
+        },
+        {
+          "name": "Viktor",
+          "priority": 0
+        },
+        {
+          "name": "Xerath",
+          "priority": 0
+        },
+        {
+          "name": "Zed",
+          "priority": 0
+        },
+        {
+          "name": "Zoe",
+          "priority": 0
+        },
+        {
+          "name": "Chogath",
+          "priority": 0
+        },
+        {
+          "name": "Darius",
+          "priority": 0
+        },
+        {
+          "name": "Fiora",
+          "priority": 0
+        },
+        {
+          "name": "Gnar",
+          "priority": 0
+        },
+        {
+          "name": "Illaoi",
+          "priority": 0
+        },
+        {
+          "name": "Poppy",
+          "priority": 0
+        },
+        {
+          "name": "Riven",
+          "priority": 0
+        },
+        {
+          "name": "Shen",
+          "priority": 0
+        },
+        {
+          "name": "Singed",
+          "priority": 0
+        },
+        {
+          "name": "Tryndamere",
+          "priority": 0
+        },
+        {
+          "name": "Urgot",
+          "priority": 0
+        },
+        {
+          "name": "Yorick",
+          "priority": 0
+        }
+      ],
+      "openRoles": [
+        "JUNGLE",
+        "BOTTOM",
+        "SUPPORT",
+        "MID",
+        "TOP"
+      ]
+    }
+  }
+}

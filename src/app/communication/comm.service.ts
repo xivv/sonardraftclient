@@ -60,6 +60,18 @@ export class CommService {
           query: gql`
     {
       draft {
+        comps {
+          name
+          picks {
+            name
+            alternatives {
+              name
+            }
+          }
+          banns {
+            name
+          }
+        }
         blue {
           picks{
             name

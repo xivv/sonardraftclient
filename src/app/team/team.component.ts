@@ -12,7 +12,7 @@ export class TeamComponent {
 
     @Input() team: Team;
 
-    characterImageBaseUrl = 'https://ddragon.leagueoflegends.com/cdn/9.20.1/img/champion/';
+    characterImageBaseUrl = 'https://ddragon.leagueoflegends.com/cdn/9.22.1/img/champion/';
 
     getImageUrl(character: Character): string {
 

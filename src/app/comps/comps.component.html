@@ -1,0 +1,8 @@
+<div class="columns is-multiline" *ngFor="let comp of comps">
+  <a class="button is-dark">{{comp.name}}</a>
+  <div *ngFor="let character of comp.picks">
+    <figure class="image is-32x32 banns">
+      <img src="{{getImageUrl(character)}}">
+    </figure>
+  </div>
+</div>
