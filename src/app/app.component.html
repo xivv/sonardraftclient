@@ -3,13 +3,16 @@
   <div class="container" *ngIf="commService.draft">
     <div class="columns">
       <div class="column">
-        <app-comps [comps]="commService.draft.comps"></app-comps>
+        <app-comps [comps]="commService.draft.blue.comps"></app-comps>
       </div>
-      <div class="column">
+      <div class="column blue">
         <app-team [team]="commService.draft.blue"></app-team>
       </div>
-      <div class="column">
+      <div class="column red">
         <app-team [team]="commService.draft.red"></app-team>
+      </div>
+      <div class="column">
+        <app-comps [comps]="commService.draft.red.comps"></app-comps>
       </div>
       <router-outlet></router-outlet>
     </div>

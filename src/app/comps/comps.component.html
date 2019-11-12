@@ -1,8 +1,17 @@
-<div class="columns is-multiline" *ngFor="let comp of comps">
-  <a class="button is-dark">{{comp.name}}</a>
-  <div *ngFor="let character of comp.picks">
-    <figure class="image is-32x32 banns">
-      <img src="{{getImageUrl(character)}}">
-    </figure>
+<h1 class="has-text-centered title">Available comps</h1>
+<div *ngFor="let comp of comps">
+  <h1 class="has-text-centered subtitle is-6">{{comp.name}}</h1>
+  <div class="columns comp">
+    <div *ngFor="let character of comp.picks">
+      <div class="column">
+        <figure class="image is-32x32">
+          <img src="{{getImageUrl(character)}}">
+        </figure>
+        <figure *ngFor="let alternative of character.alternatives" class="image is-32x32">
+          <img src="{{getImageUrl(alternative)}}">
+        </figure>
+      </div>
+    </div>
   </div>
+  <br>
 </div>

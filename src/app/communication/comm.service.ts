@@ -60,19 +60,19 @@ export class CommService {
           query: gql`
     {
       draft {
-        comps {
-          name
-          picks {
+        blue {
+          comps {
             name
-            alternatives {
+            picks {
+              name
+              alternatives {
+                name
+              }
+            }
+            banns {
               name
             }
           }
-          banns {
-            name
-          }
-        }
-        blue {
           picks{
             name
           }
@@ -86,6 +86,18 @@ export class CommService {
           openRoles
         }
         red {
+          comps {
+            name
+            picks {
+              name
+              alternatives {
+                name
+              }
+            }
+            banns {
+              name
+            }
+          }
           picks{
             name
           }
