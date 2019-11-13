@@ -5,3 +5,8 @@ html {
   overflow-y: auto;
   background-color: rgb(6, 12, 16);
 }
+
+html,
+body {
+  height: 100%;
+}

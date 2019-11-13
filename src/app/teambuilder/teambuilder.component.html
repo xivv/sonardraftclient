@@ -1,0 +1,31 @@
+<div class="columns is-multiline">
+  <div *ngFor="let character of banns">
+    <figure class="image is-32x32 banns">
+      <img src="{{getImageUrl(character)}}">
+    </figure>
+  </div>
+</div>
+<div class=" columns is-multiline">
+  <div *ngFor="let character of picks">
+    <figure class="image is-48x48">
+      <img src="{{getImageUrl(character)}}">
+    </figure>
+  </div>
+</div>
+<br>
+<div class="columns is-multiline">
+  <figure *ngFor="let role of availableRoles" class="image is-32x32">
+    <img src="../../assets/icons/{{role}}_icon.png">
+  </figure>
+</div>
+<br>
+<div class="columns is-multiline">
+  <div *ngFor="let priority of combos">
+    <figure class=" image is-48x48">
+      <img class="character" src="{{getImageUrl(priority)}}">
+      <div
+        [ngClass]="{'priority-low': priority.priority <= 15,'priority-minor': priority.priority <= 35 && priority.priority > 15,'priority-major': priority.priority > 35  && priority.priority <= 50,'priority-severe': priority.priority >  50  && priority.priority <= 75,'priority-blocker': priority.priority > 75}"
+        class="priority">{{priority.priority}}%</div>
+    </figure>
+  </div>
+</div>

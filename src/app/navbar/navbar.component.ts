@@ -13,4 +13,18 @@ export class NavbarComponent {
     constructor(public commService: CommService) {
 
     }
+
+    fullscreen() {
+
+
+        if (document.fullscreen) {
+            document.exitFullscreen();
+        } else {
+            const elem = document.documentElement;
+            const methodToBeInvoked = elem.requestFullscreen || elem['mozRequestFullscreen']
+                ||
+                elem['msRequestFullscreen'];
+            if (methodToBeInvoked) { methodToBeInvoked.call(elem); }
+        }
+    }
 }

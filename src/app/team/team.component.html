@@ -1,12 +1,13 @@
 <div class="columns is-multiline">
-  <div *ngFor="let character of team.picks">
-    <figure class="image is-48x48">
+  <div *ngFor="let character of team.banns">
+    <figure class="image is-32x32 banns">
       <img src="{{getImageUrl(character)}}">
     </figure>
   </div>
-  &nbsp;&nbsp;&nbsp;
-  <div *ngFor="let character of team.banns">
-    <figure class="image is-32x32 banns">
+</div>
+<div class=" columns is-multiline">
+  <div *ngFor="let character of team.picks">
+    <figure class="image is-48x48">
       <img src="{{getImageUrl(character)}}">
     </figure>
   </div>

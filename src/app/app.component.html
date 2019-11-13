@@ -1,6 +1,6 @@
 <app-navbar></app-navbar>
 <section class="section">
-  <div class="container" *ngIf="commService.draft">
+  <div class="container is-fluid" *ngIf="commService.draft">
     <div class="columns">
       <div class="column">
         <app-comps [comps]="commService.draft.blue.comps"></app-comps>

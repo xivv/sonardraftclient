@@ -1,17 +1,19 @@
-<h1 class="has-text-centered title">Available comps</h1>
-<div *ngFor="let comp of comps">
-  <h1 class="has-text-centered subtitle is-6">{{comp.name}}</h1>
-  <div class="columns comp">
-    <div *ngFor="let character of comp.picks">
-      <div class="column">
-        <figure class="image is-32x32">
-          <img src="{{getImageUrl(character)}}">
-        </figure>
-        <figure *ngFor="let alternative of character.alternatives" class="image is-32x32">
-          <img src="{{getImageUrl(alternative)}}">
-        </figure>
+<div *ngIf="comp">
+  <h1 class="has-text-centered title">Available comps</h1>
+  <div *ngFor="let comp of comps">
+    <h1 class="has-text-centered subtitle is-4">{{comp.name}}</h1>
+    <div class="columns comp">
+      <div *ngFor="let character of comp.picks">
+        <div class="column">
+          <figure class="image is-32x32">
+            <img src="{{getImageUrl(character)}}">
+          </figure>
+          <figure *ngFor="let alternative of character.alternatives" class="image is-32x32">
+            <img src="{{getImageUrl(alternative)}}">
+          </figure>
+        </div>
       </div>
     </div>
+    <br>
   </div>
-  <br>
 </div>
